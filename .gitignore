@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Configurações do VS Code (evita poluir com suas preferências pessoais)
+.vscode/
+
+# Banco de dados local (geralmente não enviamos o .db para o GitHub)
+*.db
+
+# Arquivos de ambiente do uv
+uv.lock
